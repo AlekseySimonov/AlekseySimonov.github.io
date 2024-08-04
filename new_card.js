@@ -1,7 +1,7 @@
 var container = document.querySelector('.container')
 
-function getData(){
-    fetch('./info.json')
+async function getData(){
+    await fetch('./info.json')
     .then((response) => {
         return response.json()
     })
