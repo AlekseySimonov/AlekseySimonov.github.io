@@ -52,7 +52,12 @@ function cardHtml(element){
 }
 
 
-getData()
+document.addEventListener('DOMContentLoaded', function() {
+    getData()
+})
+
+
+
 
 
 
